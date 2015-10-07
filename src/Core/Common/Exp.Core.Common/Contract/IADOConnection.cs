@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.Common;
 
-namespace Exp.Core.Common.Contracts
+namespace Exp.Core.Common.Contract
 {
     public interface IADOConnection
     {
