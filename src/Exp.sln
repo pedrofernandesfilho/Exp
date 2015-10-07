@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0A32F910-8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp.Infra.Data.ADO", "Infra\Data\Exp.Infra.Data.ADO\Exp.Infra.Data.ADO.csproj", "{C817EB14-906B-4202-9FF8-F2B5865F20D6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F7BFA144-FD28-4B4A-ABDF-E6F9EA1DFE80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{0417F77C-45F5-4211-959B-58A25097688F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exp.Core.Common", "Core\Common\Exp.Core.Common\Exp.Core.Common.csproj", "{B580643D-A730-497E-BE24-26DE7EE474EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,10 @@ Global
 		{C817EB14-906B-4202-9FF8-F2B5865F20D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C817EB14-906B-4202-9FF8-F2B5865F20D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C817EB14-906B-4202-9FF8-F2B5865F20D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B580643D-A730-497E-BE24-26DE7EE474EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B580643D-A730-497E-BE24-26DE7EE474EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B580643D-A730-497E-BE24-26DE7EE474EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B580643D-A730-497E-BE24-26DE7EE474EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,5 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0A32F910-8DBA-49F9-81D2-E3C683EE9681} = {27363D1F-D8A7-4BF3-B52F-53546FF9D1E4}
 		{C817EB14-906B-4202-9FF8-F2B5865F20D6} = {0A32F910-8DBA-49F9-81D2-E3C683EE9681}
+		{0417F77C-45F5-4211-959B-58A25097688F} = {F7BFA144-FD28-4B4A-ABDF-E6F9EA1DFE80}
+		{B580643D-A730-497E-BE24-26DE7EE474EE} = {0417F77C-45F5-4211-959B-58A25097688F}
 	EndGlobalSection
 EndGlobal
